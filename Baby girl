@@ -48,3 +48,27 @@
     align-items: center;
     font-family: 'Segoe UI', sans-serif;
   }
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: url('https://raw.githubusercontent.com/Snoopy89611/Sophia/main/ai-girl.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+</style>
+ai-girl.jpeg
