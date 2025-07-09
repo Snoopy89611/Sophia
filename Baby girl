@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talk to Sophia</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url('https://i.imgur.com/Q5m6zBd.jpg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff3f3;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 90%;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>“Mmm... there you are. I've been thinking about you all day, baby. Come closer...”</h1>
+    <elevenlabs-convai agent-id="agent_01jz7zp0abe83b5k1hy4xb4tbk"></elevenlabs-convai>
+  </div>
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+</body>
+</html>
