@@ -38,3 +38,13 @@
 </html>
 <elevenlabs-convai agent-id="agent_01jz7zp0abe83b5k1hy4xb4tbk"></elevenlabs-convai>
 <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: url('https://i.imgur.com/z8wRDZt.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
