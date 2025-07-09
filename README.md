@@ -1,4 +1,4 @@
-# Sophia<style>
+<style>
   body {
     margin: 0;
     height: 100vh;
